@@ -30,6 +30,7 @@ public class Solution_1928_Base64Decoder {
 				for (int base64Index = 0; base64Index < base64Table.length; base64Index++) {
 					if (text.charAt(i) == base64Table[base64Index]) {
 						base64Value = base64Index;
+						break;
 					}
 				}
 
